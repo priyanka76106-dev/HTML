@@ -1,0 +1,24 @@
+
+#clr{
+    color: rgb(98, 141, 11);
+    text-align: center;
+}
+#bet{
+    text-align: center;
+    background-color: rgb(206, 178, 168);
+}
+#press{
+    background-color: blueviolet;
+}
+.grey{
+    color:purple;
+}
+    .container{
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 10%;
+        border: 2px solid red;
+        padding: 10px;
+        border-radius: 10px;
+
+    }
