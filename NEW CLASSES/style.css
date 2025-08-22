@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    background-color: rgb(219, 178, 127);
+
+
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(104, 34, 34);
+    font-size: 20px;
+
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    margin-left: 1000px;
+}
+
+h3 {
+    color: rgb(201, 12, 91);
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 243, 210);
+
+}
+
+footer {
+    color: rgb(131, 81, 23);
+    background-color: rgb(45, 131, 109);
+
+}
+
+.detail {
+    background-color: rgb(61, 61, 100);
+    border: 2px solid black;
+    width: 500px;
+
+}
+
+.clr {
+    color: aqua;
+}
+
+.card {
+    background-color: yellow;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.img {
+    gap: 50px;
+    background-color: brown;
+    width: 500px;
+}
+
+.anc {
+    background-color: rgb(74, 74, 117);
+
+}

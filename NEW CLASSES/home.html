@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .about-me {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 50px;
+      background-color: #fff;
+      max-width: 800px;
+      margin: 50px auto;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .about-me img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 100px;
+      margin-right: 30px;
+    }
+
+    .about-me-text {
+      max-width: 500px;
+    }
+
+    .about-me-text h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .about-me-text p {
+      font-size: 16px;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+      .about-me {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about-me img {
+        margin: 0 0 20px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="about-me">
+    <img src="https://via.placeholder.com/200" alt="Profile Picture">
+    <div class="about-me-text">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm a passionate web developer who loves creating beautiful, responsive websites.
+        With a strong foundation in HTML, CSS, and JavaScript, I aim to build user-friendly
+        and accessible digital experiences.
+      </p>
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+h3{
+    color:blue;
+}
+p{
+    color: yellow;
+}
+button{
+    color: green;
+    background-color: blue;
+}
+.back{
+    /* background-color: brown; */
+}
+body{
+    background-color: red;
+}

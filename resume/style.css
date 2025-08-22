@@ -1,0 +1,22 @@
+
+    table,
+    td,
+    th{
+        border-collapse: collapse;
+        border:2px solid rgb(16, 17, 13)
+        
+    }
+    .name{
+        text-align: center;
+        color:brown
+    }
+    .container{
+        border:2px solid black
+    
+    }
+    .tools{
+        color:blue
+    }
+#office{
+    color:rgb(182, 86, 22)
+}
